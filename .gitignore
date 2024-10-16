@@ -1,0 +1,72 @@
+# Environnement virtuel
+vevn/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers de logs
+*.log
+logs/
+
+# Fichiers générés par Briefcase
+briefcase.toml
+build/
+dist/
+*.app
+*.dmg
+*.exe
+*.msi
+*.apk
+*.aab
+
+# Fichiers de configuration de l'éditeur
+.vscode/
+.idea/
+
+# Fichiers macOS
+.DS_Store
+
+# Caches et métadonnées
+*.egg-info/
+.eggs/
+*.sqlite3
+
+# Fichiers de tests temporaires
+*.coverage
+htmlcov/
+.tox/
+noxfile_config.json
+coverage.xml
+nosetests.xml
+pytest.xml
+pip-log.txt
+
+# Fichiers de paquets Python créés
+*.whl
+*.wheel
+MANIFEST
+*.manifest
+
+# Distribution de documentation
+build-docs/
+
+# Fichiers de sauvegarde de l'éditeur
+*~
+*.bak
+*.swp
+*.swo
+
+# Compilés Cython
+*.c
+*.cpp
+*.so
+*.o
+*.pyd
+
+# Exclure tout fichier secret ou de configuration privée
+.env
+.secret
+*.pem
+*.key
